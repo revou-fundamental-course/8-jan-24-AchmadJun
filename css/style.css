@@ -1,0 +1,187 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,1,255,1) 0%, rgba(0,1,255,1) 0%, rgba(238,0,0,1) 86%);
+    padding: 25px;
+    color: white;
+}
+
+.text-container-judul {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.text-container-desk {
+    text-align: center;
+}
+
+.container-blokluas {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,1,255,1) 0%, rgba(0,1,255,1) 0%, rgba(238,0,0,1) 86%);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.container-hitung-luas {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,1,255,1) 0%, rgba(0,1,255,1) 0%, rgba(238,0,0,1) 86%);
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+#lblkotakinput {
+    display: flex;
+    font-size: larger;
+    font-weight: 500;
+    justify-content: center;
+}
+
+#inputkotak {
+    display: grid;
+    padding: 15px;
+    width: 98%;
+}
+
+.button-luas{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#tmblhitung {
+    background-color: white;
+    border: 2px solid green;
+    margin: 30px;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+  }
+#tmblhitung:hover {
+    background-color: green;
+    color:black;
+}
+
+#tmblhitung:active {
+    transform: translateY(5px);
+}
+
+#tmblreset {
+    background-color: white;
+    border: 2px solid red;
+    margin: 30px;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+  }
+
+#tmblreset:hover {
+    background-color: red;
+    color:black;
+}
+
+#tmblreset:active {
+    transform: translateY(5px);
+}
+
+#redalert {
+    display: none;
+    color: red;
+}
+
+.container-blokkeliling {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,1,255,1) 0%, rgba(0,1,255,1) 0%, rgba(238,0,0,1) 86%);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.container-hitung-keliling {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,1,255,1) 0%, rgba(0,1,255,1) 0%, rgba(238,0,0,1) 86%);
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+#lblkotakinputkeliling {
+    display: flex;
+    font-size: larger;
+    font-weight: 500;
+    justify-content: center;
+}
+
+#inputkotakkeliling {
+    display: grid;
+    padding: 15px;
+    width: 98%;
+}
+
+.button-keliling{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#tmblhitungkeliling {
+    background-color: white;
+    border: 2px solid green;
+    margin: 30px;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+#tmblhitungkeliling:hover {
+    background-color: green;
+    color:black;
+}
+
+#tmblhitungkeliling:active {
+    transform: translateY(5px);
+}
+
+#tmblresetkeliling {
+    background-color: white;
+    border: 2px solid red;
+    margin: 30px;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+#tmblresetkeliling:hover {
+    background-color: red;
+    color:black;
+}
+
+#tmblresetkeliling:active {
+    transform: translateY(5px);
+}
+
+#redalert-1 {
+    display: none;
+    color: red;
+}
